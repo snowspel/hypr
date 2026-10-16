@@ -176,7 +176,7 @@ Backup:
 ---------------------------------------------------------------------
  On a new minimal Arch, after the internet works (Wi-Fi with nmtui), run only this:
      sudo pacman -S --needed git
-     git clone https://github.com/snowspel/snow-dot.git ~/Snow-Dot && bash ~/Snow-Dot/install.sh
+     git clone https://github.com/snowspel/hypr.git ~/Snow-Dot && bash ~/Snow-Dot/install.sh
  Then run  sudo reboot.
  (To get the URL of any repo: open the repo on github.com -> green "Code" button -> HTTPS URL.)
  Note: if the repo is PUBLIC, everyone can see the wallpaper and all the files. No password or key is stored in any file.
