@@ -1,0 +1,6 @@
+[Unit]
+Description=snow: weekly update check
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/snow/bin/update-check.sh --timer

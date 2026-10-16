@@ -1,0 +1,6 @@
+[Unit]
+Description=Update snow SDDM wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/snow-sddm-wallpaper
