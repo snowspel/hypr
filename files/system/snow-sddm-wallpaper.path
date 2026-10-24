@@ -1,9 +1,0 @@
-[Unit]
-Description=Watch snow wallpaper folder
-
-[Path]
-PathChanged=__HOME__/.config/hypr/wallpaper
-Unit=snow-sddm-wallpaper.service
-
-[Install]
-WantedBy=multi-user.target
